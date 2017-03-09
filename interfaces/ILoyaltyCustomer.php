@@ -5,8 +5,8 @@ namespace interfaces;
 interface ILoyaltyCustomer extends ICustomer
 {
     /**
-     * @param $percentage
-     * @return float
+     * @param float $percentage
+     * @return bool
      */
     public function setDiscount($percentage);
 
